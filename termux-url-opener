@@ -1,7 +1,18 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# TERMUX-YTD 2.0
+# BY KHAN SAAD
+# GITHUB.COM/KHANSAAD1275
+
+# SETTINGS THAT YOU CAN CHANGE-----
 
 
 fpath='/data/data/com.termux/files/home/storage/shared/TDownloads/%(title)s.%(ext)s'
 
+
+# ----------
+
+#check if reel
 
 if [[ "$1" == *"short"* ]]; then
   yt-dlp -o $fpath $1 
@@ -13,42 +24,42 @@ fi
 
 
 
-echo -e "\e[036m" "╔════════════════════════════════════════╗"                                                                          
-echo -e "\e[032m" "║ ♚ Project Name : Social Downloder                                                  ║"
-echo -e "\e[032m" "║ ♚ Author : BIG BOSS    (#bigboss/@bigboss)                               ║"
-echo -e "\e[036m" "╠════════════════════════════════════════╝"
-echo -e "\e[036m" "╠═▶ [𝗦𝗲𝗹𝗲𝗰𝘁 𝗔 Qulity and Formats]  "
-echo -e "\e[032m" "╠═▶ "
-echo -e "\e[032m" "╠═▶ Audio Formats "
-echo -e "\e[032m" "╠═▶ "
-echo -e "\e[032m" "╠═▶1. m4a  Audio"
-echo -e "\e[032m" "╠═▶2. mp3 Audio"
-echo -e "\e[032m" "╠═▶3.  ogg Audio"
-echo -e "\e[032m" "╠═▶4. mkv Audio"
-echo -e "\e[032m" "╠═▶5. aac Audio"
-echo -e "\e[032m" "╠═▶ "
-echo -e "\e[032m" "╠═▶ Video Formats "
-echo -e "\e[032m" "╠═▶ "
-echo -e "\e[032m" "╠═▶6. 144p Video"
-echo -e "\e[032m" "╠═▶7. 240p Video"
-echo -e "\e[032m" "╠═▶8. 250p Video"
-echo -e "\e[032m" "╠═▶9. 360p Video"
-echo -e "\e[032m" "╠═▶10. 450p Video"
-echo -e "\e[032m" "╠═▶11. 480p Video"
-echo -e "\e[032m" "╠═▶12. 520p Video"
-echo -e "\e[032m" "╠═▶13. 720p Video"
-echo -e "\e[032m" "╠═▶14. 720p60p Video"
-echo -e "\e[032m" "╠═▶15. 1080p Video"
-echo -e "\e[032m" "╠═▶16. 1080p60p Video"
-echo -e "\e[032m" "╠═▶17. 1440p Video"
-echo -e "\e[032m" "╠═▶18. 2160l Video"
-echo -e "\e[032m" "╠═▶19. 4320p Video"
-echo -e "\e[032m" "╠═▶20. 8000p (test only) Video"
-echo -e "\e[032m" "╠═▶U. Update Now"
-echo -e "\e[032m" "╠═▶A. About"
-echo -e "\e[032m" "╠═▶E. Exsit"
-echo -e "\e[032m" "╠═▶Please select the number and (A or E )"
-printf "\e[032m ╚═:➤ \e[0m "
+echo  "╔════════════════════════════════════════╗"                                                                          
+echo  "║ ♚ Project Name : Social Downloder║"
+echo  "║ ♚ Author : BIG BOSS    (#bigboss/@bigboss)║"
+echo  "╠════════════════════════════════════════╝"
+echo  "╠═▶ [𝗦𝗲𝗹𝗲𝗰𝘁 𝗔 Qulity and Formats]  "
+echo  "╠═▶"
+echo  "╠═▶ Audio Formats "
+echo  "╠═▶ "
+echo  "╠═▶1. m4a  Audio"
+echo  "╠═▶2. mp3 Audio"
+echo  "╠═▶3.  ogg Audio"
+echo  "╠═▶4. mkv Audio"
+echo  "╠═▶5. aac Audio"
+echo  "╠═▶ "
+echo  "╠═▶ Video Formats "
+echo  "╠═▶ "
+echo  "╠═▶6. 144p Video"
+echo  "╠═▶7. 240p Video"
+echo  "╠═▶8. 250p Video"
+echo  "╠═▶9. 360p Video"
+echo  "╠═▶10. 450p Video"
+echo  "╠═▶11. 480p Video"
+echo  "╠═▶12. 520p Video"
+echo  "╠═▶13. 720p Video"
+echo  "╠═▶14. 720p60p Video"
+echo  "╠═▶15. 1080p Video"
+echo  "╠═▶16. 1080p60p Video"
+echo  "╠═▶17. 1440p Video"
+echo  "╠═▶18. 2160l Video"
+echo  "╠═▶19. 4320p Video"
+echo  "╠═▶20. 8000p (test only) Video"
+echo  "╠═▶U. Update Now"
+echo  "╠═▶A. About"
+echo  "╠═▶E. Exsit"
+echo  "╠═▶Please select the number and (A or E )"
+printf "╚═:➤ \e[0m "
 read choice
 
 
@@ -134,18 +145,17 @@ case $choice in
 	yt-dlp -f 'best[height<=8000]' -o $fpath $1 
 	;;
 	
-	E|e)
+	E)
 	break
 	;;
 	
-	A|a)
+	A)
 	echo "Hello this is Saad! , Social Media downlosder is a light weight tool to download any kind of Video, Music or shorts from Youtube with 2 clicks on your phone using Termux. For more information and tools you can check out my WhatsApp Channel https://whatsapp.com/channel/0029VafUaD2DeON884lZ620e Visit my Telegram Channel https://t.me/bb_alfa_team_channel for more termux releted containts"
 	;;
 	
-	U|u)
+	U)
 	bash up.sh
 	;;
-	
 	*)
 	yt-dlp -f 'best[height<=480]' -o $path $1 
 esac
