@@ -1,0 +1,1 @@
+echo -e "Final stage update 100%"
