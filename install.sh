@@ -1,6 +1,5 @@
 echo -e "\e[035m"  "Updating default packages\n"
 apt update && apt upgrade -y
-pkg update && pkg upgrade -y
 echo -e "\e[032m" "Requesting acces to storage\n"
 echo -e "\e[032m" "Allow Storage Permission!"
 sleep 2

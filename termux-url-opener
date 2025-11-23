@@ -1,4 +1,6 @@
-fpath='/data/data/com.termux/files/home/storage/shared/Termux Downloads/%(title)s.%(ext)s'
+
+
+fpath='/data/data/com.termux/files/home/storage/shared/TDownloads/%(title)s.%(ext)s'
 
 
 if [[ "$1" == *"short"* ]]; then
@@ -43,8 +45,8 @@ echo -e "\e[032m" "╠═▶18. 2160l Video"
 echo -e "\e[032m" "╠═▶19. 4320p Video"
 echo -e "\e[032m" "╠═▶20. 8000p (test only) Video"
 echo -e "\e[032m" "╠═▶U. Update Now"
-echo -e "\e[032m" "╠═▶A"
-echo -e "\e[032m" "╠═▶E"
+echo -e "\e[032m" "╠═▶A. About"
+echo -e "\e[032m" "╠═▶E. Exsit"
 echo -e "\e[032m" "╠═▶Please select the number and (A or E )"
 printf "\e[032m ╚═:➤ \e[0m "
 read choice
@@ -141,15 +143,7 @@ case $choice in
 	;;
 	
 	U|u)
-	echo"Chekking For New Update Available..............."
-	echo"Updateing...."
-	c
-	rm -rf MDBIGBOSS
-	git clone https://github.com/eshandiwyan/MDBIGBOSS.git 
-	cd MDBIGBOSS
-	bash install.sh
 	bash up.sh
-	echo"Update Finished"
 	;;
 	
 	*)

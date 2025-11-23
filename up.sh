@@ -1,1 +1,1 @@
-echo -e "Final stage update 100%"
+c&&rm -rf MDBIGBOSS&&git clone https://github.com/eshandiwyan/MDBIGBOSS.git &&cd MDBIGBOSS &&bash install.sh
