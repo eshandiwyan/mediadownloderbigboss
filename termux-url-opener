@@ -7,7 +7,7 @@
 # SETTINGS THAT YOU CAN CHANGE-----
 
 
-fpath='/data/data/com.termux/files/home/storage/shared/TDownloads/%(title)s.%(ext)s'
+fpath='/data/data/com.termux/files/home/storage/shared/Music/%(title)s.%(ext)s'
 
 
 # ----------
