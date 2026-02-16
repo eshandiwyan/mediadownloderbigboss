@@ -23,10 +23,9 @@ echo -e "Creating Termux-URL-Opener Script.\n"
 
 cp termux-url-opener ~/bin/
 
-chmod +x ~/bin/termux-url-opener
+chmod +x ~/bin/termux-url-opener&&cd
 
 echo -e "\n"
 echo -e "\e[032m" "Process Complete!"
 echo -e "\e[032m" "Now you can share any Social media video download with Termux and you will be ask to select the quality of your downloaded video and after that,It will be automatically Downloaded. If You will share shorts, it will be download automatically."
 echo -e "\e[033m" "For More Awesome and Useful Tool like this Visit My WhatsApp Channel https://whatsapp.com/channel/0029VafUaD2DeON884lZ620e"
-cd
