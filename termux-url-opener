@@ -7,7 +7,7 @@
 # SETTINGS THAT YOU CAN CHANGE-----
 
 
-fpath='/data/data/com.termux/files/home/storage/shared/BB-SOCIAL-DOWNLOADER-TERMUX/%(title)s.%(ext)s'
+fpath='/data/data/com.termux/files/home/storage/shared/BBDownload/%(title)s.%(ext)s'
 
 
 # ----------
@@ -17,7 +17,7 @@ fpath='/data/data/com.termux/files/home/storage/shared/BB-SOCIAL-DOWNLOADER-TERM
 if [[ "$1" == *"short"* ]]; then
   yt-dlp -o $fpath $1 
   exit
-
+Birth Of Date       :
 else
 	echo -e " "
 fi
@@ -26,12 +26,11 @@ fi
 
 echo -e  "════════════════════════════════════════" 
 echo -e  "   BB SOCIAL DOWNLOADER TERMUX  "
-echo -e  ""
+echo -e  " "
 echo -e  "       ♚ Owner Info ♚     "
-echo -e  " ♚ Owner : BIG BOSS (#bigboss/@bigboss) "  
-echo -e  " ♚ Real Nmae : Eshan Diwayan Fdo (Chabhi)  "                                                                       
-echo -e  " ♚ Age        : 19 "
-echo -e  "  "
+echo -e  " ♚ Owner : BIG BOSS (#bigboss/@bigboss) "                                                                         
+echo -e  " ♚ Birth Of Date : 2006/june/12 "
+echo -e  " "
 echo -e  "    Social Media Links and User Names  "
 echo -e  " 🔰 Telegram Channel : @bb_alfa_team_channel "
 echo -e  " 🔰 YouTube : https://youtube.com/@big_boss-sl"
@@ -180,6 +179,7 @@ echo -e " ⚜️ Do you want to update this tool ⚜️"
 echo -e " "
 echo -e " cd MDBIGBOSS and bash up.sh use this tow command update"
 echo -e " This tool Automaticaly "
+echo -e " Update after cd command enter (go to the home storage ) "
 	;;	
 
 	*)

@@ -4,7 +4,7 @@ cd&&rm -rf MDBIGBOSS
 
 echo -e "♻️Updating..........."
 
-git clone https://github.com/eshandiwyan/MDBIGBOSS.git
+git clone https://github.com/bbalfa/MDBIGBOSS.git
 
 echo -e "♻️Runing........ "
 
