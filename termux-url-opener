@@ -167,9 +167,21 @@ case $choice in
 	;;
 	
 	A)
-	echo -e "Hello this is Saad! , Social Media downlosder is a light weight tool to download any kind of Video, Music or shorts from Youtube with 2 clicks on your phone using Termux. For more information and tools you can check out my WhatsApp Channel https://whatsapp.com/channel/0029VafUaD2DeON884lZ620e Visit my Telegram Channel https://t.me/bb_alfa_team_channel for more termux releted containts"
-	;;
-	
+echo -e " ⭕ HOW  TO WORK THIS TOOL ⭕"
+echo -e " "
+echo -e " 🔰 Please fallow step by step 🔰"
+echo -e " "
+echo -e " open another social media app exsample : youtube  chooce do you want to download video"
+echo -e " click share icon and find termux or same like app (TEL) Or any and automaticaly show "
+echo -e " After select format or Qulity download"
+echo -e " Enjoi my tool have a nice day"
+echo -e " "
+echo -e " ⚜️ Do you want to update this tool ⚜️"
+echo -e " "
+echo -e " cd MDBIGBOSS and bash up.sh use this tow command update"
+echo -e " This tool Automaticaly "
+	;;	
+
 	*)
 	yt-dlp -f 'best[height<=480]' -o $path $1 
 esac
